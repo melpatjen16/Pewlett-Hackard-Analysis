@@ -55,3 +55,11 @@ WHERE te.to_date = '9999-01-01' AND (e.birth_date BETWEEN '1965-01-01' AND '1965
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
+
+SELECT COUNT(DISTINCT m.emp_no) AS "count", m.title
+INTO mentees_bytitle
+FROM mentorship_eligibility AS m
+GROUP BY m.title
+ORDER BY count DESC;
+
+SELECT * FROM mentees_bytitle;
