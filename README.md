@@ -28,9 +28,9 @@ Table 2. Employees Eligible for the Mentorship Program
 
 1. There are a significant number of employees within the age range for retirement. The majority of those retiring are Senior Engineers, followed by Senior Staff. 
 
-2. The Development Department has the largest proportion total possible retirees. Additional analysis should examine what positions in what departments have the greatest chance of causing Paewlett-Hackard to be under-resourced. The number of eligible employees for mentorship is too small to insure coverage. 
+2. The Development Department has the largest proportion total possible retirees. This is followed by production. It will be important for leadership to give these department special attention. 
 
-3. On average, if there is a one to one mentorship program, only approximately 5% would be mentored by outgoing employees by department Please see Tables 4 and 5. It may benefit the company to examine expanding the parameters for mentorship eligibility. 
+3. On average, if there is a one to one mentorship program, only approximately 5% would be mentored by outgoing employees by department. Please see Tables 4 and 5. It may benefit the company to examine expanding the parameters for mentorship eligibility. 
 
 4. On average, if there is a one to one mentorship program, only approximately 2% would be mentored by outgoing employees by title. Please see Tables 1 and 3. It may benefit the company to examine expanding the parameters for mentorship and reexamineg options for those retiring. 
 
@@ -43,12 +43,16 @@ Provide high-level responses to the following questions, then provide two additi
 
 a. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
+Additional analysis should examine what positions in what departments have the greatest chance of causing Pewlett-Hackard to be under-resourced. The number of eligible employees for mentorship is too small to insure coverage. The number of employees eligible for retirement may cause the company to be unable to maintain effectiveness. 
+
 Table 3. The Number of Mentorship Eligible Employees by Title
 
 ![Mentees_by_title](Images/Mentees_by_title.png)
 
 
-c. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+c. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
+
+As stated above, average, if there is a one to one mentorship program, only approximately 5% would be mentored by outgoing employees by department and should consider expanding the mentorship program to include students that are entry level (e.g., more recent birthdate).
 
 
 Table 4. The Number of Retiring Employees by Dept No. 
