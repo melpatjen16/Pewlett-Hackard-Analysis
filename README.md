@@ -1,8 +1,8 @@
 # Pewlett-Hackard-Analysis
 
-##Overview of the analysis: 
+## Overview of the analysis: 
 
-###Purpose of this analysis - 
+### Purpose of this analysis - 
 To determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. As a deliverable, the report summarizes the analysis and helps prepare manager for the “silver tsunami” as many current employees reach retirement age.
 
 Deliverables include the following:
@@ -12,8 +12,7 @@ Deliverable 2: The Employees Eligible for the Mentorship Program
 Deliverable 3: A written report on the employee database analysis (README.md)
 
 
-
-##Results: 
+## Results: 
 
 Table 1. Number of Retiring Employees by Title
 
@@ -25,7 +24,7 @@ Table 2. Employees Eligible for the Mentorship Program
 ![Employees_Eligible_Mentorship](Images/Employees_Eligible_Mentorship.png)
 
 
-####Provide a bulleted list with four major points from the two analysis deliverables. 
+#### Provide a bulleted list with four major points from the two analysis deliverables. 
 
 1. There are a significant number of employees within the age range for retirement. The majority of those retiring are Senior Engineers, followed by Senior Staff. 
 
@@ -37,7 +36,7 @@ Table 2. Employees Eligible for the Mentorship Program
 
 
 
-##Summary: 
+## Summary: 
 
 Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
@@ -50,6 +49,7 @@ Table 3. The Number of Mentorship Eligible Employees by Title
 
 
 c. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
 
 Table 4. The Number of Retiring Employees by Dept No. 
 
