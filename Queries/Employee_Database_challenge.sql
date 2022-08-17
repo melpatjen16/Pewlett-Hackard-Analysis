@@ -35,22 +35,23 @@ ORDER BY count DESC;
 
 SELECT * FROM retiring_titles;
 
---Create table employees information
--- Mentorship elibility
-SELECT DISTINCT ON(e.emp_no) e.emp_no, 
+--Create table employee information
+-- Mentorship eligibility
+SELECT DISTINCT ON(e.emp_no) 
+	e.emp_no, 
 	e.first_name, 
 	e.last_name, 
 	e.birth_date,
 	de.from_date, 
-	de.to_date,
-	t.title
+	te.to_date, -- challenge required de.to_date but it does not inform current employees
+	te.title
 INTO mentorship_eligibility
 FROM employees AS e
-LEFT JOIN dept_emp as de
+LEFT JOIN dept_emp AS de
 ON e.emp_no = de.emp_no
-LEFT JOIN titles AS t
-ON (e.emp_no = t.emp_no)
-WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')	
+INNER JOIN titles AS te
+ON e.emp_no = te.emp_no
+WHERE te.to_date = '9999-01-01' AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
